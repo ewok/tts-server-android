@@ -11,7 +11,8 @@ class CheckVoiceData : Activity() {
         val result = TextToSpeech.Engine.CHECK_VOICE_DATA_PASS
         val returnData = Intent()
 
-        val available: ArrayList<String> = arrayListOf("zho-CHN")
+        val available: ArrayList<String> = arrayListOf("zho-CHN", "ru-RU", "en-US", "en-GB", "en-AU")
+        // val available: ArrayList<String> = arrayListOf("zho-CHN")
         val unavailable: ArrayList<String> = arrayListOf()
 
         returnData.putStringArrayListExtra(TextToSpeech.Engine.EXTRA_AVAILABLE_VOICES, available)
