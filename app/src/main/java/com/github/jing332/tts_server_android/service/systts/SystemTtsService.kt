@@ -83,7 +83,7 @@ class SystemTtsService : TextToSpeechService(), TextToSpeechManager.Listener {
         }
     }
 
-    private val mCurrentLanguage: MutableList<String> = mutableListOf("zho", "CHN", "")
+    private val mCurrentLanguage: MutableList<String> = mutableListOf("rus", "RUS", "")
 
 
     private val mTtsManager: TextToSpeechManager by lazy {
